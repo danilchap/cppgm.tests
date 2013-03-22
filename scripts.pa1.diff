@@ -1,0 +1,69 @@
+diff --git a/scripts/compare_results.pl b/scripts/compare_results.pl
+index 919432b..816562f 100755
+--- a/scripts/compare_results.pl
++++ b/scripts/compare_results.pl
+@@ -3,15 +3,16 @@
+ use strict;
+ use warnings;
+ 
+-if (scalar(@ARGV) != 2)
++if (scalar(@ARGV) != 3)
+ {
+-	die "Usage: compare_results.pl <ref_suffix> <my_suffix>";
++	die "Usage: compare_results.pl <ref_suffix> <my_suffix> <tesstlocations>";
+ }
+ 
+ my $ref_suffix = $ARGV[0];
+ my $my_suffix = $ARGV[1];
++my $tests = $ARGV[2];
+ 
+-my @tests = split(/\s+/, `find tests -type f`);
++my @tests = split(/\s+/, `find $tests -type f`);
+ 
+ my $ntests = 0;
+ my $npass = 0;
+diff --git a/scripts/run_all_tests.pl b/scripts/run_all_tests.pl
+index f3e7957..05ee354 100755
+--- a/scripts/run_all_tests.pl
++++ b/scripts/run_all_tests.pl
+@@ -3,15 +3,16 @@
+ use strict;
+ use warnings;
+ 
+-if (scalar(@ARGV) != 2)
++if (scalar(@ARGV) != 3)
+ {
+-	die "Usage: test.pl <app> <suffix>";
++	die "Usage: test.pl <app> <suffix> <testlocation>";
+ }
+ 
+ my $app = $ARGV[0];
+ my $suffix = $ARGV[1];
++my $tests = $ARGV[2];
+ 
+-my @tests = split(/\s+/, `find tests -type f`);
++my @tests = split(/\s+/, `find $tests -type f`);
+ 
+ for my $test (sort @tests)
+ {
+diff --git a/Makefile b/Makefile
+index 186ef46..7c7efe0 100644
+--- a/Makefile
++++ b/Makefile
+@@ -5,8 +5,14 @@ pptoken: pptoken.cpp IPPTokenStream.h DebugPPTokenStream.h
+ 	g++ -g -std=gnu++11 -Wall -o pptoken pptoken.cpp
+ 
+ # test pptoken application
+-test: all
+-	scripts/run_all_tests.pl pptoken my
++test: 
++	scripts/run_all_tests.pl pptoken my tests
++	scripts/compare_results.pl ref my tests
++	scripts/run_all_tests.pl pptoken my ../cppgm.tests/course/pa1
++	scripts/compare_results.pl ref my ../cppgm.tests/course/pa1
++
++test-ref: 
++	scripts/run_all_tests.pl pptoken-ref my
+ 	scripts/compare_results.pl ref my
+ 
+ # regenerate reference test output
