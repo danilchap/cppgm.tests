@@ -1,0 +1,58 @@
+preprocessing-op-or-punc 1 #
+identifier 6 define
+whitespace-sequence 0 
+identifier 8 iostream
+whitespace-sequence 0 
+identifier 5 stdio
+preprocessing-op-or-punc 1 .
+identifier 1 h
+new-line 0 
+preprocessing-op-or-punc 1 #
+identifier 6 define
+whitespace-sequence 0 
+identifier 3 FOO
+whitespace-sequence 0 
+preprocessing-op-or-punc 1 >
+new-line 0 
+preprocessing-op-or-punc 1 #
+identifier 6 define
+whitespace-sequence 0 
+identifier 2 NO
+new-line 0 
+preprocessing-op-or-punc 1 #
+identifier 7 include
+whitespace-sequence 0 
+preprocessing-op-or-punc 1 <
+identifier 8 iostream
+whitespace-sequence 0 
+identifier 3 FOO
+whitespace-sequence 0 
+new-line 0 
+preprocessing-op-or-punc 1 #
+identifier 7 include
+whitespace-sequence 0 
+preprocessing-op-or-punc 1 <
+identifier 6 vector
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+identifier 3 FOO
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+identifier 2 NO
+whitespace-sequence 0 
+new-line 0 
+preprocessing-op-or-punc 1 #
+identifier 7 include
+whitespace-sequence 0 
+header-name 30 <vector NO NO NO FOO NO NO NO>
+whitespace-sequence 0 
+new-line 0 
+eof
