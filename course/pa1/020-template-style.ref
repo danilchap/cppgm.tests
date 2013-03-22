@@ -1,0 +1,17 @@
+whitespace-sequence 0 
+new-line 0 
+identifier 7 my_type
+preprocessing-op-or-punc 1 <
+preprocessing-op-or-punc 2 ::
+identifier 6 size_t
+preprocessing-op-or-punc 1 ,
+identifier 5 alloc
+preprocessing-op-or-punc 2 <:
+pp-number 1 3
+preprocessing-op-or-punc 2 :>
+preprocessing-op-or-punc 1 >
+preprocessing-op-or-punc 2 ::
+identifier 5 value
+preprocessing-op-or-punc 1 ;
+new-line 0 
+eof

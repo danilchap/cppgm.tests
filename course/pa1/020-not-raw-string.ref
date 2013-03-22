@@ -1,0 +1,6 @@
+whitespace-sequence 0 
+new-line 0 
+user-defined-string-literal 9 "not a "R
+user-defined-string-literal 15 "(raw-string)"R
+new-line 0 
+eof

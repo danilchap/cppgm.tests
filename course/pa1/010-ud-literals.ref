@@ -1,0 +1,12 @@
+whitespace-sequence 0 
+new-line 0 
+user-defined-character-literal 12 u'asdf'_asdf
+new-line 0 
+identifier 2 u8
+user-defined-character-literal 11 'asdf'_asdf
+new-line 0 
+user-defined-character-literal 12 L'asdf'_asdf
+new-line 0 
+user-defined-character-literal 12 U'asdf'_asdf
+new-line 0 
+eof

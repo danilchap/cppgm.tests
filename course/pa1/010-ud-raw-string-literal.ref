@@ -1,0 +1,5 @@
+whitespace-sequence 0 
+new-line 0 
+user-defined-string-literal 10 u8R"(a)"_x
+new-line 0 
+eof

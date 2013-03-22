@@ -1,0 +1,5 @@
+whitespace-sequence 0 
+new-line 0 
+string-literal 20 R"aa(xxx)aaa"xxx)aa"
+new-line 0 
+eof
