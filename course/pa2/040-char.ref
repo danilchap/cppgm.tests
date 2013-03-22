@@ -1,0 +1,10 @@
+literal 'ª' int AA000000
+literal 'ϐ' int D0030000
+literal u'ϐ' char16_t D003
+literal U'ϐ' char32_t D0030000
+literal L'ϐ' wchar_t D0030000
+literal '􂈢' int 22221000
+invalid u'􂈢'
+literal U'􂈢' char32_t 22221000
+literal L'􂈢' wchar_t 22221000
+eof
