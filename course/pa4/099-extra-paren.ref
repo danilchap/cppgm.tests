@@ -1,0 +1,28 @@
+simple ( OP_LPAREN
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple ) OP_RPAREN
+simple , OP_COMMA
+literal 2 int 02000000
+simple ) OP_RPAREN
+simple < OP_LT
+simple ( OP_LPAREN
+literal 3 int 03000000
+simple , OP_COMMA
+literal 4 int 04000000
+simple ) OP_RPAREN
+simple ? OP_QMARK
+simple ( OP_LPAREN
+literal 3 int 03000000
+simple , OP_COMMA
+literal 4 int 04000000
+simple ) OP_RPAREN
+simple : OP_COLON
+simple ( OP_LPAREN
+simple ( OP_LPAREN
+literal 1 int 01000000
+simple ) OP_RPAREN
+simple , OP_COMMA
+literal 2 int 02000000
+simple ) OP_RPAREN
+eof
