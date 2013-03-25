@@ -20,8 +20,10 @@ PLUS(or_,eq);
 PLUS(id1,1);
 PLUS(id1,1e5);
 PLUS(id1,1_id);
-//id + number with . or + or - is undefined 
-//id + string or char is undefined
+PLUS(u8,"ab");
+PLUS(L,"ABC");
+PLUS(R,"ab(cd)ab");
+PLUS(u,'x');
 PLUS(id1,\u0300\u0300);//id + non-whitespace character that can be part of id
 PLUS(id1,or);//id + operator that can be added to id
 //id + punctuation can't be valid

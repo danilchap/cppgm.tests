@@ -33,6 +33,14 @@ identifier id11e5
 simple ; OP_SEMICOLON
 identifier id11_id
 simple ; OP_SEMICOLON
+literal u8"ab" array of 3 char 616200
+simple ; OP_SEMICOLON
+literal L"ABC" array of 4 wchar_t 41000000420000004300000000000000
+simple ; OP_SEMICOLON
+literal R"ab(cd)ab" array of 3 char 636400
+simple ; OP_SEMICOLON
+literal u'x' char16_t 7800
+simple ; OP_SEMICOLON
 identifier id1̀
 invalid ̀
 simple ; OP_SEMICOLON
