@@ -1,0 +1,3 @@
+ERROR: invalid floating literal (#1): 1..2
+ERROR: invalid floating literal (#2): 1e+
+ERROR: invalid floating literal (#1): 3...

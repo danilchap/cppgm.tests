@@ -1,0 +1,97 @@
+simple ; OP_SEMICOLON
+identifier id
+simple ; OP_SEMICOLON
+literal 1 int 01000000
+simple ; OP_SEMICOLON
+literal "string" array of 7 char 737472696E6700
+simple ; OP_SEMICOLON
+literal 'c' char 63
+simple ; OP_SEMICOLON
+invalid @
+simple ; OP_SEMICOLON
+simple . OP_DOT
+simple ; OP_SEMICOLON
+identifier id
+simple ; OP_SEMICOLON
+literal 1 int 01000000
+simple ; OP_SEMICOLON
+literal "string" array of 7 char 737472696E6700
+simple ; OP_SEMICOLON
+literal 'c' char 63
+simple ; OP_SEMICOLON
+invalid @
+simple ; OP_SEMICOLON
+simple . OP_DOT
+simple ; OP_SEMICOLON
+identifier id1id2
+simple ; OP_SEMICOLON
+simple or_eq OP_BORASS
+simple ; OP_SEMICOLON
+identifier id11
+simple ; OP_SEMICOLON
+identifier id11e5
+simple ; OP_SEMICOLON
+identifier id11_id
+simple ; OP_SEMICOLON
+identifier id1̀
+invalid ̀
+simple ; OP_SEMICOLON
+identifier id1or
+simple ; OP_SEMICOLON
+user-defined-literal 13_id2 _id2 integer 13
+simple ; OP_SEMICOLON
+user-defined-literal 1._id2 _id2 floating 1.
+simple ; OP_SEMICOLON
+user-defined-literal 1.0e+14_id2 _id2 floating 1.0e+14
+simple ; OP_SEMICOLON
+user-defined-literal 1e-13_id2 _id2 floating 1e-13
+simple ; OP_SEMICOLON
+user-defined-literal 0.14_id2 _id2 floating 0.14
+simple ; OP_SEMICOLON
+invalid 1..2_id2
+simple ; OP_SEMICOLON
+user-defined-literal 0x43_id2 _id2 integer 0x43
+simple ; OP_SEMICOLON
+literal 0xff int FF000000
+simple ; OP_SEMICOLON
+literal 0xab13 int 13AB0000
+simple ; OP_SEMICOLON
+user-defined-literal 0xf_id _id integer 0xf
+simple ; OP_SEMICOLON
+user-defined-literal "abc"_id2 _id2 string array of 4 char 61626300
+simple ; OP_SEMICOLON
+user-defined-literal 'c'_id2 _id2 character char 63
+simple ; OP_SEMICOLON
+identifier and_id2
+simple ; OP_SEMICOLON
+literal 12 int 0C000000
+simple ; OP_SEMICOLON
+literal 1.2 double 333333333333F33F
+simple ; OP_SEMICOLON
+literal 1.2 double 333333333333F33F
+simple ; OP_SEMICOLON
+literal 1e+15 double 00003426F56B0C43
+simple ; OP_SEMICOLON
+literal 1e+02 double 0000000000005940
+simple ; OP_SEMICOLON
+literal 0x034 int 34000000
+simple ; OP_SEMICOLON
+literal 077 int 3F000000
+simple ; OP_SEMICOLON
+user-defined-literal 1_̀ _̀ integer 1
+simple ; OP_SEMICOLON
+literal 1. double 000000000000F03F
+simple ; OP_SEMICOLON
+invalid 1e+
+simple ; OP_SEMICOLON
+invalid 3...
+simple ; OP_SEMICOLON
+literal .14 double EC51B81E85EBC13F
+simple ; OP_SEMICOLON
+simple |= OP_BORASS
+simple ; OP_SEMICOLON
+identifier andor
+simple ; OP_SEMICOLON
+simple >>= OP_RSHIFTASS
+simple ; OP_SEMICOLON
+eof

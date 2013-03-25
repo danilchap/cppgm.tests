@@ -1,0 +1,5 @@
+identifier a
+simple . OP_DOT
+simple . OP_DOT
+literal "A . ." array of 6 char 41202E202E00
+eof
