@@ -7,4 +7,8 @@ identifier name
 identifier a
 invalid ##
 identifier c
+identifier a
+invalid ##
+identifier b
+identifier AB
 eof
