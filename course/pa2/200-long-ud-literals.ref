@@ -1,0 +1,7 @@
+user-defined-literal 02777000000000000000000_id1 _id1 integer 02777000000000000000000
+user-defined-literal 29990000000000000000000_id1 _id1 integer 29990000000000000000000
+user-defined-literal 0x300000000000000000000_id1 _id1 integer 0x300000000000000000000
+user-defined-literal 3.14e+20000_id2 _id2 floating 3.14e+20000
+simple - OP_MINUS
+user-defined-literal 2.7e-20000_id2 _id2 floating 2.7e-20000
+eof

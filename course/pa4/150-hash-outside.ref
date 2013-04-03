@@ -1,0 +1,10 @@
+identifier ab
+invalid ##
+identifier cd
+identifier a
+invalid #
+identifier name
+identifier a
+invalid ##
+identifier c
+eof
