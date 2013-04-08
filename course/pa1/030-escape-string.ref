@@ -1,0 +1,9 @@
+string-literal 8 "\xabcz"
+new-line 0 
+string-literal 6 "\x0z"
+new-line 0 
+string-literal 6 "\04y"
+new-line 0 
+string-literal 5 "\08"
+new-line 0 
+eof
