@@ -1,0 +1,4 @@
+preproc 1
+sof course/pa5/300-line-new-line.t
+literal 15 int 0F000000
+eof
