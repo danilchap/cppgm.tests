@@ -1,0 +1,10 @@
+diff --git a/scripts/run_one_test.sh b/scripts/run_one_test.sh
+index 543e2da..94b2c1a 100755
+--- a/scripts/run_one_test.sh
++++ b/scripts/run_one_test.sh
+@@ -1,4 +1,4 @@
+ #!/bin/bash
+ 
+-./$1 -o $3 $2 &> $3.stdout
++./$1 -o $3 $2* &> $3.stdout
+  

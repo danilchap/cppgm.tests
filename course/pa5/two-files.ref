@@ -1,0 +1,7 @@
+preproc 2
+sof course/pa5/two-files.t
+identifier file1
+eof
+sof course/pa5/two-files.t2
+identifier file2
+eof

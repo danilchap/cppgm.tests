@@ -1,0 +1,7 @@
+preproc 1
+sof course/pa5/exclude.t
+identifier stage1
+identifier stage2
+identifier stage3
+identifier staget4
+eof

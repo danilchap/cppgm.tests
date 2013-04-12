@@ -1,0 +1,17 @@
+whitespace-sequence 0 
+new-line 0 
+identifier 3 foo
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+identifier 3 bar
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+new-line 0 
+identifier 4 bazz
+new-line 0 
+eof
