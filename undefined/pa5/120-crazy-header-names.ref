@@ -1,0 +1,6 @@
+preproc 1
+sof undefined/pa5/120-crazy-header-names.t
+identifier header1
+identifier header2
+identifier header3
+eof
