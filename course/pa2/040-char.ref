@@ -7,4 +7,8 @@ literal '􂈢' int 22221000
 invalid u'􂈢'
 literal U'􂈢' char32_t 22221000
 literal L'􂈢' wchar_t 22221000
+literal '\x00aa' int AA000000
+literal '\x0061' char 61
+literal '\252' int AA000000
+literal '\141' char 61
 eof
