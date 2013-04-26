@@ -2,4 +2,5 @@ preproc 1
 sof course/pa5/1984-defined-misuse.t
 identifier BAD_STYLE
 simple true KW_TRUE
+identifier RIGHT
 eof
