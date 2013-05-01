@@ -12,3 +12,7 @@
 // starting with punc
 ..123
 ..123e
+
+// crucial for pa2 ud-suffix parsing
+10.0_safaf+1
+10.0_safafe+1

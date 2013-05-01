@@ -26,4 +26,13 @@ new-line 0
 preprocessing-op-or-punc 1 .
 pp-number 5 .123e
 new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+pp-number 10 10.0_safaf
+preprocessing-op-or-punc 1 +
+pp-number 1 1
+new-line 0 
+pp-number 13 10.0_safafe+1
+new-line 0 
 eof
