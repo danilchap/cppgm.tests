@@ -1,0 +1,38 @@
+pp-number 4 1..e
+new-line 0 
+pp-number 4 1..E
+new-line 0 
+pp-number 5 1..Ee
+new-line 0 
+pp-number 17 1..eEEE.E..EEe.Ee
+new-line 0 
+pp-number 3 1e2
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+pp-number 3 5e+
+new-line 0 
+pp-number 9 1.e+e-...
+new-line 0 
+pp-number 15 .1.O.M.G.123...
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+preprocessing-op-or-punc 1 .
+pp-number 4 .123
+new-line 0 
+preprocessing-op-or-punc 1 .
+pp-number 5 .123e
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+pp-number 10 10.0_safaf
+preprocessing-op-or-punc 1 +
+pp-number 1 1
+new-line 0 
+pp-number 13 10.0_safafe+1
+new-line 0 
+eof
