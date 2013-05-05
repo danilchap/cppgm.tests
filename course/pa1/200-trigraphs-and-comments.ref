@@ -1,0 +1,168 @@
+whitespace-sequence 0 
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 35 "C1. This is /* not a comment */\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 32 "C2. This is // not a comment\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 48 "C3. This is \" /* not a comment as well*/ \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 46 "C4. This is \" // not a comment as well \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 39 "C5. Let's print some random numbers: "
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+character-literal 4 '/*'
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+character-literal 4 '*/'
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+character-literal 4 '\n'
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 35 "C6. Let's print a random number: "
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+character-literal 4 '//'
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+character-literal 4 '\n'
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 44 "C7. This is\" '/*' not a comment '*/' \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 39 "C8. This is\" '//' not a comment \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+whitespace-sequence 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 14 "F5. This is "
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+string-literal 18 " not a comment\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 24 "H5. This is obviously "
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+whitespace-sequence 0 
+string-literal 18 " not a comment\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 41 "J1. This is \" /* not a comment */ \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 48 "J2. This is \" // not a comment at all */ \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+identifier 3 std
+preprocessing-op-or-punc 2 ::
+identifier 4 cout
+whitespace-sequence 0 
+preprocessing-op-or-punc 2 <<
+whitespace-sequence 0 
+string-literal 57 "\" '\' '/*J3. Yeah, baby, this is NOT a comment*/' \"\n"
+preprocessing-op-or-punc 1 ;
+new-line 0 
+eof
