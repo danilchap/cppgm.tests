@@ -1,0 +1,26 @@
+whitespace-sequence 0 
+new-line 0 
+whitespace-sequence 0 
+new-line 0 
+preprocessing-op-or-punc 2 %:
+identifier 7 include
+whitespace-sequence 0 
+header-name 5 "foo"
+new-line 0 
+preprocessing-op-or-punc 2 %:
+identifier 7 include
+whitespace-sequence 0 
+header-name 5 <foo>
+new-line 0 
+preprocessing-op-or-punc 2 %:
+whitespace-sequence 0 
+string-literal 5 "foo"
+new-line 0 
+preprocessing-op-or-punc 4 %:%:
+identifier 7 include
+whitespace-sequence 0 
+preprocessing-op-or-punc 1 <
+identifier 3 foo
+preprocessing-op-or-punc 1 >
+new-line 0 
+eof
