@@ -1,0 +1,7 @@
+ERROR: invalid floating literal (#2): 1e-
+ERROR: invalid floating literal (#2): 1e+
+ERROR: invalid floating literal (#2): 1e-
+ERROR: invalid floating literal (#2): 1e+
+ERROR: invalid floating literal (#1): 1..
+ERROR: invalid floating literal (#1): 1..
+ERROR: invalid character in ud-suffix: 1.0_foo.bar

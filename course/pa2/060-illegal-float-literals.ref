@@ -1,0 +1,8 @@
+invalid 1e-
+invalid 1e+_foo
+invalid 1e-_foo
+invalid 1e+_foo
+invalid 1..
+invalid 1.._foo
+invalid 1.0_foo.bar
+eof
