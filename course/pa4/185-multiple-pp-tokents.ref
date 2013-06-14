@@ -1,0 +1,10 @@
+identifier aA
+simple . OP_DOT
+identifier Bb
+identifier pP
+invalid ##
+identifier Qq
+simple ; OP_SEMICOLON
+identifier xX
+identifier Yy
+eof
