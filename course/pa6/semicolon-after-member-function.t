@@ -1,0 +1,3 @@
+class Ca {
+    char b() {};
+};
